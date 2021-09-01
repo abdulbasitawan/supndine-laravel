@@ -158,5 +158,18 @@
 
         <!-- Custom JS defined by admin -->
         <?php echo file_get_contents(base_path('public/byadmin/back.js')) ?>
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60b55d05de99a4282a1aa129/1f7276o6h';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     </body>
 </html>
